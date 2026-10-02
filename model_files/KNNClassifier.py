@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import GridSearchCV
 
-df = pd.read_csv(r'Dataset\Cleaned_dataset.csv')
+df = pd.read_csv(r'Dataset/Cleaned_dataset.csv')
 
 x = df.drop(columns=['Patient_ID','AI_Health_Recommendation','Doctor_Consultation_Needed','Diabetes_Risk_Score','Diabetes_Risk'])
 y = df['Diabetes_Risk']
