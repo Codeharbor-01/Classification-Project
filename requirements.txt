@@ -1,0 +1,7 @@
+pandas
+streamlit
+matplotlib
+seaborn
+joblib
+scikit-learn
+category-encoders
